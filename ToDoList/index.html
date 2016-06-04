@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/style.css" />
+     <script src="js/jsmicrotmpl.js"></script>
+     <script data-main="js/app.js" src="js/require.js"></script>
+	<title>TASK LIST</title>
+</head>
+<body>
+	 <script type="text/template"   id="frame-tmpl">
+    	<div class="frame-tmpl__wrapper">      
+            <header class="frame-tmpl__header">
+                <h1 class="frame-tmpl__header-h1">MY TASK LIST</h1>
+                <input type="text" class="frame-tmpl__header-item-values"  placeholder="Enter a task and press ENTER" maxlength="30"/>
+            </header>
+            	 <ul class="frame-tmpl__item-list"> </ul>
+        </div>
+	</script>
+
+     <script type="text/template" id="frame-tmpl__list-tmpl">
+	    <%for (var i=0; i<data.length; i++) {%>
+	      <li id="<%= i %>" class="list-tmpl__item">
+            <div class="list-tmpl__item-wrap">
+                <span data-value="<%= data[i] %>" class="list-tmpl__item-delete">
+                    <button class="list-tmpl__item-btn-delete">X</button>
+                </span>
+                <label id="<%= i %>"class="list-tmpl__item-label" for="<%= i %>"><%= data[i] %></label>
+                <input id="<%= i %>" class="list-tmpl__item-edit" type="text" maxlength="30"/>
+            </div>
+          </li>
+        <% } %>
+	</script>
+</body>
+</html>

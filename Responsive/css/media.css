@@ -1,0 +1,522 @@
+@media screen and (max-width: 959px) {
+    .wrapper {
+        max-width: 768px;
+    }
+    header {
+        margin-bottom: 55px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .navigation{
+        margin-top: 29px;
+        padding-left: 15px;
+        float: left;
+    }
+    .navigation_item {
+        margin-right: 40px;
+        margin-left: 0;
+    }
+    .text-iphone {
+        position: relative;
+        margin-top: 100px;
+        padding-left:6%;
+        overflow: hidden;
+        text-overflow: clip;
+        width: 278px;
+        height: 180px;
+    }
+    .text-iphone-header1{
+        font-size: 48px;
+        overflow: hidden;
+    }
+    .text-iphone-header2{
+        font-size: 24px;
+        overflow: hidden;
+        height: 18px;
+    }
+    .text-iphone-item{
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .text-iphone:before{
+        content: " ";
+        display: block;
+        width: 27px;
+        height: 39px;
+        position: absolute;
+        background: url("../img/arrow.png") no-repeat;
+        left: 0;
+        top: 86px;
+    }
+    .iphone {
+        width: 33%;
+        padding-right:55px;
+        position: relative;
+        right: 0;
+    }
+    .iphone:after {
+        content: " ";
+        display: block;
+        width: 27px;
+        height: 39px;
+        position: absolute;
+        background: url("../img/arrow2.png") no-repeat;
+        left: 283px;
+        top: 208px;
+    }
+    .slider-circle {
+        margin-top: 440px;
+        margin-bottom: 94px;
+    }
+    .about-left, .about-center, .about-right{
+        max-height: 195px;
+    }
+    .about-header1, .about-header2, .about-header3 {
+        font-size: 24px;
+    }
+    .about-item {
+        padding-top:0;
+    }
+    .about-more {
+        margin-bottom:2%;
+    }
+    main {
+        margin-bottom: 62px;
+    }
+    .director-head{
+        font-size: 24px;
+    }
+    .director-head:before{
+        left: -20px;
+        top: 20px;
+    }
+    .director-head-right {
+        font-size: 24px;
+    }
+    .director-head-right:before {
+        content: '\A';
+        white-space: pre;
+    }
+    .director {
+        width: 40%;
+        margin-left: 43px;
+        margin-top: 97px;
+    }
+    main.slider-circle {
+        margin: 38px 103px 0 0
+    }
+    .from-blog {
+        margin-top: 13%;
+        width: 48%;
+    }
+    .copyright, .comments-center{
+        display: none;
+    }
+    .comments-768,.comments{
+        float: left;
+        max-height: 200px;
+        width: 200px;
+        padding-top:100px;
+        overflow: hidden;
+        display: block;
+        margin-left:10px;
+        margin-right: 45px;
+    }
+    .comments-header {
+        font-size: 24px;
+    }
+    .comments-item {
+        margin-top: 7px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    body .back5 {
+        height: 200px;
+    }
+    footer .navigation_item {
+        margin-right: 15px;
+    }
+    footer .navigation_link-designet{
+        margin-top:60px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .wrapper {
+        max-width: 480px;
+    }
+    .logo{
+        margin-top: 57px;
+        float: none;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .navigation_link {
+        list-style: none;
+        text-decoration: none;
+        padding: 0 5px;
+        color: white;
+    }
+
+    .navigation_link:hover {
+        border-bottom: #ffccff solid 2px;
+    }
+
+     .hide:hover {
+        background: #221a27;
+        line-height: 38px;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .navigation:hover .first:hover {
+        background: #221a27;
+        line-height: 41px;
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .navigation {
+        list-style: none;
+        width: 245px;
+        margin: 20px 110px;
+        opacity: 0.9;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-left:0;
+        z-index: 100;
+    }
+
+    .navigation_item {
+        display: block;
+        font: 24px League Gothic;
+        line-height: 40px;
+    }
+
+    .first {
+        padding-top: 5px;
+        padding-bottom: 15px;
+        line-height: 43px;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+        color: white;
+        transition: 0.2s linear 0.5s;
+        margin-right: 0px;
+    }
+
+    .hide {
+        padding-bottom: 9px;
+        width: 245px;
+        background: #36293e;
+        color: white;
+        text-align: center;
+        transform-origin: 50% 0%;
+        transform: perspective(350px) rotateX(-90deg);
+        transition: 0.2s linear 0.5s;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+        border-top: 2px #54405c groove;
+        max-height: 0;
+    }
+
+    .navigation:hover .first {
+        transition:0.2s linear 0s;
+        background: #36293e;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .navigation:hover .hide {
+        transform: perspective(350px) rotateX(0deg);
+        transition:0.2s linear 0s;
+        max-height: 500px;
+    }
+    .sliders{
+        width: 100%;
+        min-height: 240px;
+        background-color: rgba(0, 0, 0,0.5);
+        margin-top: 100px;
+    }
+    .text-iphone {
+        width: 212px;
+        height: 194px;
+        overflow: hidden;
+        margin-top: 83px;
+        padding-left: 33px;
+        margin-bottom: 62px
+    }
+    .text-iphone:before{
+        left: 0;
+        top: 15px;
+    }
+    .text-iphone-header1 {
+        font-size: 36px;
+    }
+    .text-iphone-header2 {
+        font-size: 18px;
+    }
+    .text-iphone-item{
+        display: none;
+    }
+    .iphone_img {
+        display: block;
+        max-width: 192px;
+        max-height: 304px;
+        height: auto;
+        width: auto;
+    }
+    .iphone:after{
+        top: 116px;
+        left: 196px;
+
+    }
+    .slider-circle{
+        position: absolute;
+        bottom: -285px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        left: 156px;
+    }
+    .about-left, .about-center, .about-right{
+        width: 100%;
+        padding-top:75px;
+        padding-bottom: 0;
+        float: none;
+    }
+    .about-header1:before {
+        left: -43px;
+        top: 2px;
+    }
+    .about-header2:before {
+        left: -43px;
+        top: 2px;
+    }
+    .about-header3:before {
+        left: -43px;
+        top: 2px;
+    }
+    .about1, .about2, .about3{
+        height:100%;
+        overflow: hidden;
+        padding-left: 75px;
+
+    }
+    .about-more{
+        padding: 15px 35px;
+        margin: 0;
+    }
+    .about-right {
+        margin-bottom: 80px;
+    }
+    .b3{
+        max-width: 440px;
+    }
+    .director {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 15px;
+    }
+    .director-head,.director-head-right {
+        font-size: 30px;
+    }
+    .director-head-right:before{
+        content: ' '
+    }
+    .director-item{
+        padding-right: 85px;
+    }
+    .slider-circle{
+        position: inherit;
+    }
+    main .slider-circle{
+        margin: 65px 195px 0 0;
+    }
+    .from-blog{
+        width: 100%;
+        margin-top: 7px;
+    }
+    .blog1, .blog2, .blog3{
+        margin-top: 0;
+        padding-left: 122px;
+    }
+    .blog1:before, .blog2:before, .blog3:before {
+        left: 55px;
+    }
+    .from-blog-head1{
+        padding-left:55px;
+    }
+    .from-blog-link{
+        display: none;
+    }
+    .from-blog-link2{
+        display: inherit;
+        float: right;
+        text-decoration: none;
+        text-shadow: 0.5px 0.9px 0 white;
+        color: #454545;
+        font-family: "LeagueGothicRegular";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-right: 47px;
+        margin-top: 0px;
+    }
+    .logos {
+        height: 232px;
+        margin-top: 86px;
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+        background: url("../img/logos480.png") 48% no-repeat;
+    }
+    .back4{
+        height:670px;
+    }
+    .comments-768{
+        width: 100%;
+        margin-top: 80px;
+        padding: 0;
+        overflow: hidden;
+        display: block;
+    }
+    .second{
+        margin-top: 50px;
+    }
+    .comments{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+    }
+    body .back5 {
+        height: 200px;
+    }
+    footer {
+        width: 440px;
+        position: relative;
+        margin: auto;
+    }
+    .wrapper footer .navigation{
+        margin: 40px 0 0 0;
+        width: auto;
+    }
+    footer menu .navigation_item{
+        margin-right: 0;
+        height: auto;
+    }
+    footer menu .navigation_link{
+        margin: 0;
+    }
+    footer menu .navigation_link-designet{
+        float: none;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 479px){
+    .wrapper {
+        max-width: 280px;
+    }
+    .navigation{
+        margin: 20px 10px;
+    }
+    .sliders {
+        background: none;
+    }
+    .iphone{
+        display: none;
+        margin-top: 122px;
+    }
+    .text-iphone:before{
+        top: 12px;
+        left: -3px;
+    }
+    .text-iphone:after{
+        content: " ";
+        display: block;
+        width: 27px;
+        height: 39px;
+        position: absolute;
+        background: url("../img/arrow2.png") no-repeat;
+        top: 15px;
+        right: 20px;
+    }
+    .text-iphone{
+        margin: 84px -13px 28px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    .slider-circle{
+        position: absolute;
+        top: 220px;
+        left: 53px;
+    }
+    .about-left, .about-center, .about-right{
+        padding-top: 70px;
+        height: 100px;
+    }
+    .about1, .about2, .about3{
+        padding-left: 53px;
+        padding-right: 30px
+    }
+    .director{
+        margin-top: 70px;
+        margin-left: 11px;
+    }
+    .director-head{
+        font-size: 24px;
+        padding-bottom: 3px;
+    }
+    .director-head:before{
+        top: 25px;
+    }
+    .director-head-right {
+        font-size: 24px;
+    }
+    .director-head-right:before {
+        content: '\A';
+        white-space: pre;
+    }
+    .director-item{
+        width: 70%;
+    }
+    main .slider-circle{
+        margin: 0;
+        top: 373px;
+        left: 67px;
+    }
+    .from-blog-head1{
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .blog1, .blog2, .blog3{
+        padding-left: 55px;
+    }
+    .blog1:before, .blog2:before, .blog3:before {
+        left: 0px;
+    }
+    .from-blog-head2{
+        height: 24px;
+        overflow: hidden;
+    }
+    .from-blog-link2{
+        margin-right: 13px;
+    }
+    .logos {
+        padding-top: 163px;
+        height: 294px;
+        margin: 0 auto;
+        background: url('../img/logos320.png') 50% no-repeat;
+        border-top: 1px solid #d8d8d8;
+        border-bottom: none;
+    }
+    .back4{
+        display: none;
+    }
+    footer .navigation_item{
+        display: none;
+    }
+    footer menu .navigation_link-designet{
+        margin-top: 0;
+        text-align: inherit;
+        padding-left: 70px;
+    }
+}

@@ -1,0 +1,19 @@
+@import "reset.css";
+@import "body.css";
+@import "wrapper.css";
+@import "header.css";
+@import "sliders.css";
+@import url(slider-circle.css);
+@import "back2.css";
+@import "back3.css";
+@import "back4.css";
+@import "media.css";
+@import "footer.css";
+header, nav, menu, footer {
+    display: block;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}

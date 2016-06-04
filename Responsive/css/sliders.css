@@ -1,0 +1,45 @@
+.sliders {
+    width: 100%;
+    min-height: 400px;
+    background: black;
+    background-color: rgba(0,0,0,0.3);
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+
+.text-iphone {
+    float: left;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    /*max-width: 525px;*/
+    width: 52%;
+    max-height: 250px;
+    margin-top: 72px;
+}
+.text-iphone-header1 {
+    color: #fefefe;
+    font-family: "LeagueGothicRegular";
+    font-size: 60px;
+    letter-spacing: -0.6px;
+}
+
+.text-iphone-header2 {
+    font-family: "LeagueGothicRegular";
+    font-size: 32px;
+    color: #edbfff;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+.text-iphone-item {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size:18px;
+    line-height: 24px;
+    margin-top: 12px;
+    letter-spacing: -0.1px;
+}
+ .iphone {
+     float: right;
+     position: relative;
+     top: -16px;
+     right: 72px;
+ }

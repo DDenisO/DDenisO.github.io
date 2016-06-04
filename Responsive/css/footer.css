@@ -1,0 +1,44 @@
+.back5{
+    background: url("../img/back5.jpg") no-repeat;
+    height: 115px;
+    background-size: cover;
+}
+footer .navigation {
+    margin-top: 0;
+    float: none;
+    padding-left: 0px;
+}
+footer .navigation_item {
+    margin-left: 0px;
+}
+footer .navigation_link {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-family: "LeagueGothicRegular";
+    margin: 40px 43px 0 0;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+footer .navigation_link:hover {
+    border-bottom: #ffccff solid 2px;
+}
+.navigation_link-designet {
+    float: right;
+    margin-top: 43px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: white;
+    list-style: none;
+}
+
+.designet-right{
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 34px;
+    font-weight: 800;
+}

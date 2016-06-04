@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: url('../img/Untitled.jpg') no-repeat ;
+}
+
+.frame-tmpl__wrapper{
+    width: 50%;
+    margin: 5% auto;
+    border-radius: 30px;
+    padding: 3%;
+    font-family: "Modern No. 20", sans-serif;
+    background: cornsilk;
+}
+.frame-tmpl__header-h1{
+    text-align: center;
+    font-size: 90px;
+}
+
+.frame-tmpl__header-item-values{
+  width: 50%;  
+  text-align: center;
+  width: 100%;
+  border:none;
+  border:  solid #E80404;
+  border-radius: 10px;
+  padding: 0.7%;
+  font-size: 35px;
+  color: #9C0909;
+  font-family: inherit;
+  cursor: pointer;
+  
+}
+
+.frame-tmpl__item-list{
+    margin: 2% 0;
+    list-style: none;
+}
+
+.list-tmpl__item-wrap {
+  width: 100%;  
+  font-family: Verdana, sans-serif;
+  position: relative;
+}
+
+
+
+.list-tmpl__item-btn-delete {
+    width: 5%;
+    height: 63%;
+    position: absolute;
+    top: 13%;
+    right: 2px;
+    border: none;
+    border: 2px solid #808080;
+    background: #E1E1E1;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #FF791A;
+    cursor: pointer;
+    float: right;
+}
+
+.list-tmpl__item-btn-delete, 
+.list-tmpl__item-btn-delete:active, 
+.list-tmpl__item-btn-delete:focus {
+    outline: none;
+}
+
+.list-tmpl__item-btn-delete:active{
+   border: 2px solid #FF791A; 
+} 
+
+
+.list-tmpl__item-edit{
+    display: none;
+}
+
+.frame-tmpl__item-list .list-tmpl__item.editing .list-tmpl__item-edit{
+  display: block;
+  outline: none;
+  width: 92%;
+  background: #fff;
+  border:none;
+  border-bottom: 2px solid #FF791A;
+  padding: 0.7%;
+  font-size: 45px;
+  color: #38271D;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.list-tmpl__item-wrap .list-tmpl__item-label {
+  cursor: pointer;
+  display: block;
+  padding: 0.7%;
+  border-bottom: 3px solid #F7E514;
+  left: 15px;
+  top: 18px;
+  color: #0062FB;
+  font-size: 2.5vw;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+

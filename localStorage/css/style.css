@@ -1,0 +1,27 @@
+body{
+    background: grey;
+}
+.h3{
+    margin-bottom:20px;
+}
+.content_wrapper{
+    margin-top: 25px;
+    max-width: 970px;
+    background: white;
+}
+label{
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    display: block;
+}
+.questions{
+    padding-left: 35px;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    margin-top: 20px;
+    background-color: #B1D4FF;
+    margin-left: 340px;
+    margin-bottom: 20px;
+}

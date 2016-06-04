@@ -1,0 +1,63 @@
+.back4{
+    background-color: #ececec;
+    height:396px;
+    width: 100%;
+}
+.comments-768 {
+    display: none;
+}
+.copyright,.comments, .comments-center {
+    float: left;
+    max-height: 200px;
+    width: 30%;
+    padding-top:100px;
+    overflow: hidden;
+}
+.comments, .comments-center {
+    margin-left: 5%;
+}
+
+.copyright-header {
+    text-shadow: 0 1px 0 white;
+    color: #454545;
+    font-family: "LeagueGothicRegular";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 18px;
+}
+.copyright-header-right {
+    text-shadow: 0 1px 0 white;
+    color: #b9b9b9;
+    font-family: "LeagueGothicRegular";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.copyright-header-under {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #c5c5c5;
+    font-family: "Georgia";
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+
+}
+.copyright-item, .comments-item {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #787878;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 5px;
+}
+.comments-header {
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+}

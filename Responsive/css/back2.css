@@ -1,0 +1,95 @@
+.back2 {
+    width:100%;
+    background: #745082; /* Old browsers */
+    background: -moz-linear-gradient(top,  #745082 0%, #33253a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #745082 0%,#33253a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #745082 0%,#33253a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745082', endColorstr='#33253a',GradientType=0 ); /* IE6-9 */
+    border-top:1px solid #33253a;
+    border-bottom:1px solid #0d151b;
+}
+.about-item {
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 12px;
+    letter-spacing: -0.2px;
+}
+.about-header1, .about-header2, .about-header3 {
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    color: white;
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    letter-spacing: -0.1px
+}
+.about1 {
+    height:166px;;
+    overflow: hidden;
+    padding-left: 81px;
+}
+.about2{
+    height:166px;;
+    overflow: hidden;
+    padding-left: 83px;
+}
+.about3 {
+    height:166px;;
+    overflow: hidden;
+    padding-left: 85px;
+}
+.about-left, .about-center, .about-right {
+    width: 33.333333333%;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    float: left;
+}
+.about-header1:before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 31px;
+    position: absolute;
+    background: url("../img/to-about1.png") no-repeat;
+    left: -20%;
+    top: 10%;
+}
+.about-header2:before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 31px;
+    position: absolute;
+    background: url("../img/to-about2.png") no-repeat;
+    left: -23%;
+    top: 25%;
+}
+.about-header3:before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 31px;
+    position: absolute;
+    background: url("../img/to-about3.png") no-repeat;
+    left: -25%;
+    top: 10%;
+}
+.about-more {
+    text-shadow: 0.5px 0.9px 0 #0f1518;
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+    font-family: "LeagueGothicRegular";
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.about-more:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
