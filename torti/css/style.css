@@ -1,13 +1,3 @@
-/* ==========================================================================
-    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== 
-
-   Circle Template 
-   
-   http://www.templatemo.com/preview/templatemo_410_circle 
-
-*/
-
 html,
 button,
 input,
@@ -67,9 +57,6 @@ textarea {
 	margin-bottom: 40px;
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
 .ir {
     background-color: transparent;
     border: 0;
@@ -107,9 +94,6 @@ textarea {
     *zoom: 1;
 }
 
-/* ==========================================================================
-    Forms
-   ========================================================================== */
 form input[type="text"],
 form input[type="email"],
 form input[type="number"],
@@ -144,14 +128,11 @@ form .button.yellow {
     border: 1px solid #c89316;
 }
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
 @media print {
     * {
         background: transparent !important;
         color: #000 !important;
-    /* Black prints faster: h5bp.com/s */
+
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -169,9 +150,6 @@ form .button.yellow {
         content: " (" attr(title) ")";
     }
 
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
@@ -186,7 +164,6 @@ form .button.yellow {
 
 thead {
     display: table-header-group;
-    /* h5bp.com/t */;
 }
 
 tr,
@@ -202,21 +179,16 @@ img {
     margin: 0.5cm;
 }
 
-p,
-  h2,
-  h3 {
+p, h2, h3 {
     orphans: 3;
     widows: 3;
 }
 
-h2,
-  h3 {
+h2, h3 {
     page-break-after: avoid;
 }
 }
-/* ==========================================================================
-    Structure & Defaults
-   ========================================================================== */
+
 html, body {
     font-size: 100%;
     width: 100%;
@@ -296,9 +268,7 @@ h6 {
     display: none;
 }
 
-/* ==========================================================================
-    Header Site Styling
-   ========================================================================== */
+
 .sidebar-menu {
     position: relative;
     z-index: 9;
@@ -315,7 +285,7 @@ h6 {
     font-size: 36px;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 0;
+    margin: 0 -40px;
 }
 
 .logo-wrapper h1 span {
@@ -388,9 +358,7 @@ h6 {
     font-size: 24px;
 }
 
-/* ==========================================================================
-    About Styling
-   ========================================================================== */
+
 .toggle-content {
     display: block;
     padding: 30px;
@@ -399,7 +367,6 @@ h6 {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */;
 }
 
 .icon-item {
@@ -410,7 +377,6 @@ h6 {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
     display: block;
 }
 
@@ -437,7 +403,6 @@ ul.tabs {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */;
 }
 
 .member-item .thumb {
@@ -460,9 +425,6 @@ ul.tabs {
 }
 
 
-/* ==========================================================================
-    Gallery Styling
-   ========================================================================== */
 .g-item {
     margin-bottom: 30px;
     padding: 6px;
@@ -470,7 +432,6 @@ ul.tabs {
     background-color: white;
     overflow: hidden;
     -webkit-backface-visibility: hidden;
-  /* Chrome, Safari, Opera */
     backface-visibility: hidden;
 }
 
@@ -510,9 +471,6 @@ ul.tabs {
     left: 0;
 }
 
-/* ==========================================================================
-    Contact Styling
-   ========================================================================== */
 .google-map {
     height: 250px;
     padding: 6px;
@@ -521,7 +479,6 @@ ul.tabs {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */;
 }
 
 .google-map iframe {
@@ -533,7 +490,6 @@ ul.tabs {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */;
 }
 
 form input, form textarea {
@@ -546,7 +502,6 @@ form input, form textarea {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */;
 }
 
 .contact-form textarea {
