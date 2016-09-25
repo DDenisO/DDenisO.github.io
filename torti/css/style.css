@@ -568,7 +568,17 @@ form input, form textarea {
     .container-fluid {
         padding: 20px;
     }
+    .sidebar-menu{
+        padding-right:0px;
+    }
     #supersized{
         display: none;
     }
+    #prevslide{
+        right: -9999px;
+    }
+    #nextslide{
+        right: -9999px;
+    }
+
 }
