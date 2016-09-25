@@ -547,9 +547,9 @@ form input, form textarea {
         right: 0;
     }
 
-    .footer {
-        position: relative;
-    }
+    /*.footer {*/
+        /*position: relative;*/
+    /*}*/
 }
 
 @media (max-width: 991px) {
@@ -575,10 +575,10 @@ form input, form textarea {
         display: none;
     }
     #prevslide{
-        right: -9999px;
+        top: -9999px;
     }
     #nextslide{
-        right: -9999px;
+        top: -9999px;
     }
 
 }
