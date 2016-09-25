@@ -7,8 +7,8 @@ $(function(){
         items: 1,
         loop: true,
         margin: 10,
-        autoplay: false,
-        autoplayTimeout: 1000,
+        autoplay: true,
+        autoplayTimeout: 5000,
         autoplayHoverPause: false,
         nav: true,
         dots: true

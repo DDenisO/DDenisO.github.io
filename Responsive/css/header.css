@@ -1,16 +1,15 @@
 .back1 {
-    background: url("../img/back1.jpg") no-repeat;
+    background: #804d2d no-repeat;
     background-size: cover;
     overflow: hidden;
     /*height: 846px;*/
 
 }
 header{
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .logo {
-    background: url("../img/logo.png") no-repeat;
     max-width: 167px;
     width: 100%;
     height: 53px;
