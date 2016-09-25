@@ -1,0 +1,17 @@
+
+.slider-circle {
+    float: right;
+    margin-top: 495px;
+    margin-bottom: 52px;
+    margin-right: -110px;
+}
+.slider-circle_item {
+    display: inline-block;
+    height: 17px;
+    width: 18px;
+    background-image: url('../img/sprite-slider-circle.png')
+}
+
+.slider-circle_item:hover {
+    background-position: -18px 0;
+}
