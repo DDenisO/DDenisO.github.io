@@ -4,7 +4,7 @@
 
 
 	/************** Toggle Menu *********************/
-	$('a.toggle-menu').click(function(){
+    $('a.toggle-menu').click(function(){
         $(".menu").slideToggle(400);
 		return false;
     });
@@ -19,9 +19,9 @@
 		return false;
 	});
 
-	$(".menu a.homebutton").click(function(){
-		$(".menu").slideUp();
-	});
+	//$(".menu a.homebutton").click(function(){
+	//	$(".menu").slideUp();
+	//});
 
 
 	$(window).resize(function(){

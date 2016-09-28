@@ -35,11 +35,11 @@
                     </div>
                     <div class="menu-wrapper">
                         <ul class="menu">
-                            <li><a class="homebutton" href="#">Главная</a></li>
+                            <li><a class="homebutton show-5" href="#">Главная</a></li>
                             <li><a class="show-1" href="#">Что это?</a></li>
                             <li><a class="show-2" href="#">Курсы</a></li>
                             <li><a class="show-3" href="#">Фото</a></li>
-                            <li><a class="show-4" href="#" onclick="templatemo_map();">Контакты</a></li>
+                            <li><a class="show-4" href="#">Контакты</a></li>
                         </ul>
                         <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
                     </div>
@@ -50,6 +50,16 @@
             </div>
             <div class="col-md-8 col-sm-12">
                 <div id="menu-container">
+                    <div id="menu-5" class="main content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="toggle-content text-center spacing">
+                                    <h3>Куда я попал</h3>
+                                    <p> Рассказать что это, зачем это, и куда это</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div id="menu-1" class="about content">
                         <div class="row">
                             <ul class="tabs">
@@ -257,19 +267,19 @@
                                     <div class="row">
                                     	<form action="#" method="post">
                                             <fieldset class="col-md-4">
-                                                <input id="name" type="text" name="name" placeholder="Name">
+                                                <input id="name" type="text" name="name" placeholder="Имя">
                                             </fieldset>
                                             <fieldset class="col-md-4">
                                                 <input type="email" name="email" id="email" placeholder="Email">
                                             </fieldset>
                                             <fieldset class="col-md-4">
-                                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                                                <input type="text" name="subject" id="subject" placeholder="Тема">
                                             </fieldset>
                                             <fieldset class="col-md-12">
-                                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                                                <textarea name="message" id="message" placeholder="Сообщение"></textarea>
                                             </fieldset>
                                             <fieldset class="col-md-12">
-                                                <input type="submit" name="send" value="Send Message" id="submit" class="button">
+                                                <input type="submit" name="send" value="Отправить сообщение" id="submit" class="button">
                                             </fieldset>
                                         </form>
                                     </div>
@@ -301,8 +311,8 @@
                 $.supersized({
                     // Functionality
                     slide_interval: 5000, // Length between transitions
-                    transition: 6, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-                    transition_speed: 2000, // Speed of transition
+                    transition: 3, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                    transition_speed: 3000, // Speed of transition
                     // Components                           
                     slide_links: 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
                     slides: [ // Slideshow Images

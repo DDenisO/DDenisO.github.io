@@ -261,7 +261,7 @@ h6 {
 
 
 .container-fluid {
-    padding: 60px 80px;
+    padding: 60px 80px 20px;
 }
 
 .content {
@@ -301,7 +301,7 @@ h6 {
 }
 
 .menu-wrapper ul.menu {
-    display: none;
+    display: block;
     background-color: white;
     text-align: center;
 }
@@ -471,27 +471,9 @@ ul.tabs {
     left: 0;
 }
 
-.google-map {
-    height: 250px;
-    padding: 6px;
-    background-color: white;
-    margin-bottom: 40px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background-clip: padding-box;
+#menu-5{
+    display: block;
 }
-
-.google-map iframe {
-    width: 100%;
-    outline: 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background-clip: padding-box;
-}
-
 form input, form textarea {
     width: 100%;
     padding: 10px;
